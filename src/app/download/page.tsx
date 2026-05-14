@@ -5,8 +5,8 @@ import { createClient } from "@/lib/supabase/client";
 import { Download, Check, Loader2, BookOpen, Globe } from "lucide-react";
 
 const LANGUAGES = [
-  { code: "en", name: "English", flag: "🇺🇸", desc: "Master essential English vocabulary", learners: "1.5B+", words: 217 },
-  { code: "es", name: "Español", flag: "🇪🇸", desc: "Domina el vocabulario español esencial", learners: "600M+", words: 50 },
+  { code: "en", name: "English", flag: "🇺🇸", desc: "Master 500+ essential English words", learners: "1.5B+", words: 500 },
+  { code: "es", name: "Español", flag: "🇪🇸", desc: "500+ palabras españolas esenciales", learners: "600M+", words: 500 },
   { code: "fr", name: "Français", flag: "🇫🇷", desc: "Maîtrisez le vocabulaire français essentiel", learners: "300M+", words: 50 },
   { code: "de", name: "Deutsch", flag: "🇩🇪", desc: "Meistern Sie den deutschen Grundwortschatz", learners: "200M+", words: 50 },
   { code: "ja", name: "日本語", flag: "🇯🇵", desc: "必須日本語単語をマスター", learners: "130M+", words: 50 },
